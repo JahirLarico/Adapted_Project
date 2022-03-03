@@ -207,3 +207,152 @@ main{
     color: #757575;
     font-weight: 500;
 }
+.main_product_details{
+    position: relative;
+    width: 100%;
+    min-width:280px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--warm-black);
+}
+.main_product_details .product_detail_company_logo{
+    position: absolute;
+    width: 80px;
+    height: 45px;
+    background-image: url("/scr/logos/shoe.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: -10px;
+    left: calc(50% - 40px);
+}
+.product_detail_title{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.product_detail_title h2{
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--white);
+}
+.product_detail_title p{
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    color: var(--white);
+}
+.product_card{
+    width: 90%;
+    min-width: 258px;
+    max-width: 400px;
+    height: auto;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: black;
+    border-radius: 5px;
+}
+.product_card .time{
+    display: inline-block;
+    width: 20px;
+    height: 23px;
+    margin-bottom: 10px;
+    background-image: url("/scr/logos/clock.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: orange;
+}
+.product_card_title{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--white);
+}
+.product_card_text{
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: var(--white);
+}
+.background_img_container{
+    width: 100%;
+    min-width: 280px;
+    height: 50vh;
+    background-image: url("/scr/img/img_background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.background_img_container h2{
+    padding-top: 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--white);
+}
+.main_plans_container{
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.plans_title{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.plans_title h2{
+    padding-top: 50px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--warm-black);
+}
+.plans_title p{
+    padding-top: 30px;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    color: var(--warm-black);
+}
+.plans_container_cards{
+    position: relative;
+    width: 70%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px auto 0;
+    padding: 0 15px;
+    background-color: #FFE5D1;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgb(89, 73, 30, 0.16);
+}
+.recommended{
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    background-color: #F2851D;
+    border-radius: 5px;
+    top: -15px;
+    left: calc(50% - 60px);
+    font-size: 1.3rem;
+    color: var(--white);
+    padding: 8px;
+}
+.plan_card_title{
+    padding-top: 30px;
+    font: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
