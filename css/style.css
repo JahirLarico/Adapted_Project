@@ -355,4 +355,17 @@ main{
     font: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
+    color: black;
+}
+.plan_card_price{
+    padding: 5px 0;
+    font-size: 5.5rem;
+    font-weight: bold;
+    line-height: 6.3rem;
+    color: black;
+}
+.plan_card_price span{
+    font-size: 1.2rem;
+    font-weight: 300;
+    vertical-align: 2.8rem;
 }
