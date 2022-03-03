@@ -1,0 +1,155 @@
+:root{
+    --bitcoing-orange:#F7871C;
+    --sotf-orange:#FFE6D0;
+    --secondary-blue:#1A8FF9;
+    --soft-blue:#E2F2FF;
+    --warm-black:#1F1B1B;
+    --white:white;
+}
+html{
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 300px;
+    height: 33.4rem;
+    text-align: center;
+    background: linear-gradient(209deg,#0F0F11 1.8%,#F2851D 80% )
+}
+.header_img_text{
+    margin: 5rem auto;
+    font-size: 3rem;
+    color: var(--bitcoing-orange);
+}
+.header_title_container{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 218px;
+    text-align: center;
+    margin: 0% auto;
+}
+.header_title_container h1{
+    color: var(--white);
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+}
+.header_title_container p{
+    margin-top: 2.5rem;
+    color: var(--white);
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    font-weight: 600;
+}
+.header_title_container .header_button{
+    position: absolute;
+    top: 270px;
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 35px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: var(--white);
+    box-shadow: 0px 4px 8px rgb(89, 73, 30,0.16);
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--warm-black);
+    text-decoration: none;
+    line-height: 5rem;
+}
+.header_button span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("/scr/logos/arrow_down.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
+main{
+    width: 100%;
+    height: auto;
+    background-color: var(--white);
+}
+.main_money_information{
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.main_money_information .background_image{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-image: url("/scr/img/Bitcoin.svg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main_money_information_title{
+    width: 100%;
+    min-width: 280px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.main_money_information_title h2{
+    margin-bottom: 30px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--warm-black);
+}
+.main_money_information p{
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1rem;
+    color:#757575;
+}
+.main_actual_money{
+    width: 70%;
+    height: 360px;
+    min-width: 280px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.main_actual_money .actual_actual_money{
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: var(--bitcoing-orange);
+}
+.actual_money_container{
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 0 auto;
+}
+.actual_money_container table{
+    width: 100%;
+    height: 100%;
+}
+.actual_money_container td{
+    width: 50%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.9rem;
+    color: #757575;
+    background-color: #FAF6F8;
+}
