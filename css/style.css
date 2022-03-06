@@ -83,6 +83,12 @@ main{
     height: auto;
     background-color: var(--white);
 }
+.main_tables_container{
+    display: flex;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
 .main_money_information{
     width: 100%;
     height: auto;
@@ -121,11 +127,13 @@ main{
     color:#757575;
 }
 .main_actual_money{
-    width: 70%;
+    scroll-snap-align: center;
+    width: 60%;
     height: 360px;
     min-width: 280px;
     max-width: 500px;
-    margin: 0 auto;
+    margin: 0 20px 0;
+    margin-top: 10px;
 }
 .main_actual_money p{
     font-size: 3rem;
@@ -337,10 +345,10 @@ main{
     position: relative;
     scroll-snap-align: center;
     width: 70%;
-    min-width: 230px;
+    min-width: 190px;
     max-width: 300px;
     height: 250px;
-    margin: 50px 15px 0;
+    margin: 50px 10px 0;
     padding: 0 15px;
     background-color: #FFE5D1;
     border-radius: 15px;
@@ -398,4 +406,29 @@ main{
     height: 20px;
     background-image: url("/scr/logos/arrow_right.svg");
     vertical-align: bottom;
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: var(--bitcoing-orange);
+}
+footer section{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .footer_left{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    list-style: none;
+}
+.footer_left li{
+    margin: 10px 0;
+}
+.footer_left a{
+    text-decoration: none;
+    color: var(--white);
 }
